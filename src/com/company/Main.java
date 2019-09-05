@@ -52,6 +52,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
+
+
         // write your code here
         System.out.println("Welcome to Erica JG's Choose Your Own Adventure");
         Scanner scanner = new Scanner(System.in);
@@ -63,6 +66,8 @@ public class Main {
         switch (room) {
             case 1:
                 roomName = "Kitchen";
+                //public Kitchen.kitchen();
+
                 break;
             case 2:
                 roomName = "Upstairs";
