@@ -140,14 +140,14 @@ public class Main {
                 scanner.nextLine();
 
                 if (adv4 == 1) {
-                    System.out.println("What's next? \n1: Go to the pool \n2: " +
-                            "Open shed ");
+                    System.out.println("What's next? \n1: Clean the pool \n2: " +
+                            "Swim in the pool ");
                     int adv5 = scanner.nextInt(); // nextLine will read to the end of the line
                     scanner.nextLine();
                     if (adv5 == 1) {
-                        System.out.println("Clean the pool\n Enjoy the pool.");
+                        System.out.println("Clean the pool sucker.");
                     } else if (adv5 == 2)
-                        System.out.println("Swim in the pool. ");
+                        System.out.println("Swim in the pool, great enjoy. ");
                     else {
                         System.out.println("I quit");
                     }
@@ -168,9 +168,70 @@ public class Main {
                 break;
             case 4:
                 advName0 = "Living Room";
-                break;
+                System.out.println("What's next? \n1: Turn on the TV \n2: " +
+                        "Sit on the couch");
+                int adv5 = scanner.nextInt(); // nextLine will read to the end of the line
+                scanner.nextLine();
+
+                if (adv5 == 1) {
+                    System.out.println("What's next? \n1:Change the channel \n2: " +
+                            "Stay on the first channel");
+                    int adv6 = scanner.nextInt(); // nextLine will read to the end of the line
+                    scanner.nextLine();
+                    if (adv6 == 1) {
+                        System.out.println("Increase the volume.");
+                    } else if (adv6 == 2)
+                        System.out.println("Decrease the volume. ");
+                    else {
+                        System.out.println("I quit");
+                    }
+                } else if (adv5 == 2) {
+                    System.out.println("What's next? \n1:Go open the door \n2: " +
+                            "Ignore the door");
+                    //int adv1= scanner.nextInt(); // nextLine will read to the end of the line
+                    scanner.nextLine();
+                    if (adv5 == 1) {
+                        System.out.println("Look in mirror\nI like mirrors too");
+                    } else if (adv5 == 2)
+                        System.out.println("Use the toilet");
+                    else {
+                        System.out.println("I quit");}
+                } else if (adv0 == 2)
+
+                    break;
             case 5:
                 advName0 = "Basement";
+                System.out.println("What's next? \n1: Turn on the lights\n2: " +
+                        "Walk in the dark");
+                int adv6 = scanner.nextInt(); // nextLine will read to the end of the line
+                scanner.nextLine();
+
+                if (adv6 == 1) {
+                    System.out.println("What's next? \n1: Turn the laundry on\n2: " +
+                            "Turn the lights off");
+                    int adv7 = scanner.nextInt(); // nextLine will read to the end of the line
+                    scanner.nextLine();
+                    if (adv7 == 1) {
+                        System.out.println("Turn the laundry on");
+                    } else if (adv7 == 2)
+                        System.out.println("Turn the lights off");
+                    else {
+                        System.out.println("I quit");
+                    }
+                } else if (adv6 == 2) {
+                    System.out.println("What's next?  \n1: Open a chest\n2: " +
+                            "Open a closet ");
+                    //int adv1= scanner.nextInt(); // nextLine will read to the end of the line
+                    scanner.nextLine();
+                    if (adv6 == 1) {
+                        System.out.println("Open a chest");
+                    } else if (adv6 == 2)
+                        System.out.println("Open a closet");
+                    else {
+                        System.out.println("I quit");}
+                } else if (adv0 == 2){
+
+                }
                 break;
             default:
                 advName0 = "Main";
